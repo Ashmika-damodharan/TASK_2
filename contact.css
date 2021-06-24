@@ -1,0 +1,56 @@
+h1{
+    font-size: 1.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1.5cm;
+    position: absolute;
+    left: 2cm;
+    top: 5cm;
+}
+p{
+    position: absolute;
+    top: 8cm;
+    left: 2cm;
+    font-size: 0.5cm;
+    font-weight:800;
+    color: #938E8E;
+}
+.navigation{
+    background: #C4C4C4;
+    overflow: hidden;
+}
+.navigation a{
+    float: right;
+    text-align: center;
+    color: aliceblue;
+    padding: 35px 14px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 2.1cm;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+.navigation a:hover{
+    background-color: rgb(252, 249, 249);
+    color: rgb(8, 8, 8);
+}
+
+
+.navigation a.active{
+    background-color: green;
+    color: white;
+   padding-bottom: 2.1cm;
+}
+.navigation img.imag{
+    position: absolute;
+    left: 0;
+}
+
+.navigation a.active:hover{
+    background-color: rgb(252, 249, 249);
+    color: rgb(13, 14, 13);
+}
+
